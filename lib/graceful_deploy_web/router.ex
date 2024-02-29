@@ -18,6 +18,7 @@ defmodule GracefulDeployWeb.Router do
     pipe_through :browser
 
     live "/", PageLive, :home
+    get "/health", HealthController, :index
   end
 
   # Other scopes may use custom stacks.

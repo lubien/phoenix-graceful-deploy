@@ -13,6 +13,7 @@ defmodule GracefulDeploy.Application do
       {Phoenix.PubSub, name: GracefulDeploy.PubSub},
       # Start the Finch HTTP client for sending emails
       {Finch, name: GracefulDeploy.Finch},
+      {AppHealth, true},
       # Start a worker by calling: GracefulDeploy.Worker.start_link(arg)
       # {GracefulDeploy.Worker, arg},
       # Start to serve requests, typically the last entry
