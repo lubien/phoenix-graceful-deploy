@@ -1,5 +1,7 @@
 # GracefulDeploy
 
+> ## explanation: https://twitter.com/joao_lubien/status/1763341930367189345
+
 To start your Phoenix server:
 
   * Run `mix setup` to install and setup dependencies
