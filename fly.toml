@@ -10,7 +10,7 @@ kill_signal = 'SIGTERM'
 [build]
 
 [env]
-  PHX_HOST = 'graceful-deploy.fly.dev'
+  PHX_HOST = 'graceful-deploy.lubien.dev'
   PORT = '8080'
 
 [http_service]
@@ -28,7 +28,7 @@ kill_signal = 'SIGTERM'
 
   [[http_service.checks]]
     grace_period = "10s"
-    interval = "30s"
+    interval = "1s"
     method = "GET"
     timeout = "5s"
     path = "/health"
